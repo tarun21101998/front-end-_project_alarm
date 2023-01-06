@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#clock_container{
+    height: 100vh;
+    widht: 100vh;
+    /* border: 10px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clock_container2{
+    height: 70vh;
+    width: 60vh;
+    border: 5px solid white;
+}
+#clock_circle{
+    height: 100px;
+    width: 100%;
+    /* border: 5px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+#input{
+    height: 100px;
+width: 100%;
+/* border: 5px solid white; */
+display: flex;
+flex-wrap: wrap;
+}
+#input input{
+    height: 20px;
+    width: 100%;
+    /* margin-left: 30px; */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 5px solid white;
+}
+#submit{
+    height: 20px;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid white; */
+    /* padding: auto; */
+}
+#submit1{
+    /* border-top-left-radius: 50px; */
+    /* border-bottom-left-radius: 50px; */
+ /* /   border-top-right-radius: 50px; */
+    /* border-bottom-right-radius: 50px; */
+    /* border: 5px solid pink; */
+    cursor: pointer;
+    /* border: 5px solid white; */
+}
+#delete{
+    cursor: pointer;
+}
